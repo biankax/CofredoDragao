@@ -1,8 +1,20 @@
 {
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
     "styled-components": "^6.5.1"
   },
   "devDependencies": {
-    "@types/styled-components": "^5.1.36"
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@types/styled-components": "^5.1.36",
+    "@vitejs/plugin-react": "^6.0.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.1"
   }
 }
