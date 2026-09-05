@@ -34,13 +34,21 @@ O projeto combina funcionalidades de controle financeiro com uma identidade visu
 
 ## 🛠️ Tecnologias
 
+### Frontend
 - React
 - TypeScript
 - Styled-components
-- Vite
+
+### Backend
 - NestJS
+- TypeScript
+- Node.js
+
+### Ferramentas
 - Git
 - GitHub
+- Vite
+- Figma
 
 ---
 
