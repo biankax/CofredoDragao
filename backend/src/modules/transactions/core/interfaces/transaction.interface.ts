@@ -4,6 +4,7 @@ import { TransactionCategory } from "src/modules/transactions/application/enum/t
 export interface Transaction{
     id: string;
     userId: string;
+    cardId?: string
     type : TransactionType;
     category: TransactionCategory;
     amount: number;
